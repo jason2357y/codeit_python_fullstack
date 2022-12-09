@@ -4,15 +4,43 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>My First Website</title>
+
+	<style type="text/css">
+		img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.big-blue-text {
+			font-size: 32;
+			color: blue;
+		}
+
+		.centered-text {
+			text-align: center;
+		}
+
+		#best-text {
+			color: orange;
+		}
+	</style>
+
 </head>
 
 <body>
-	<h1>page 1</h1>
-	<h2>페이지 1</h2>
-	<img src="../images/ice_cream.jpg", width="300">
+	<h1 class="centered-class">page 1</h1>
+	<h2 class="centered-class big-blue-text">페이지 1</h2>
+
+	<p>첫째 문단</p>
+	<p id=best-text>둘째 문단</p>
+	<p class="big-blue-text">셋째 문단</p>
+	<p>넷째 문단</p>
 
 	<a href="../index.html">index</a>
 	<a href="folder 2/page2.html">page 2</a>
 	<a href="folder 2/page3.html">page 3</a>
+
+	<img src="../images/ice_cream.jpg", width="300">
 </body>
 </html>
