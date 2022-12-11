@@ -1,0 +1,20 @@
+div {
+	background-color: #eee;
+	border-radius: 20px;
+	padding: 30px;
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div h1 {
+	text-align: center;
+	font-size: 32px;}
+
+div img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
