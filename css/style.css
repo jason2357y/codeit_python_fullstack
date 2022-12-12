@@ -18,3 +18,8 @@ div img {
 	margin-bottom: 40px;
 	margin-top: 40px;
 }
+
+div a {
+	color: black;
+	text-align: center;
+}
